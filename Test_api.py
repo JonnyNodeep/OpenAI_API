@@ -12,6 +12,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 if not api_key:
     raise ValueError("API ключ не найден в файле .env")
 
+
 # Создаем клиент OpenAI
 client = OpenAI()
 
